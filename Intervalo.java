@@ -50,11 +50,10 @@ public class Intervalo {
         
         if (diferencaS <= -1){
             diferencaS += 60;
-            }
+        }
         
         if (segundos > seg){
             diferencaS = segundos - seg;
-            
         }
         
         if (diferencaM <= -1){
